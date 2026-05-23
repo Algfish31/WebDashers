@@ -1,0 +1,118 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: url("background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Aller", sans-serif;
+}
+
+h1 {
+    font-family: "Pusab", "Aller", sans-serif;
+    color: white;
+
+    text-shadow:
+        -2px -2px 0 black,
+         2px -2px 0 black,
+        -2px  2px 0 black,
+         2px  2px 0 black,
+        -2px  0px 0 black,
+         2px  0px 0 black,
+         0px -2px 0 black,
+         0px  2px 0 black,
+
+         4px 4px 8px rgba(0,0,0,0.7);
+}
+
+.pusab {
+    font-family: "Pusab", "Aller", sans-serif;
+    color: white;
+
+    text-shadow:
+        -2px -2px 0 black,
+         2px -2px 0 black,
+        -2px  2px 0 black,
+         2px  2px 0 black,
+        -2px  0px 0 black,
+         2px  0px 0 black,
+         0px -2px 0 black,
+         0px  2px 0 black,
+
+         4px 4px 8px rgba(0,0,0,0.7);
+}
+
+.brown-box {
+    background-color: #8B4513;
+    color: white;
+    padding: 20px;
+    margin: 100px;
+    text-align: center;
+    border-radius: 10px;
+    border: 5px solid black;
+}
+
+#nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 15px 40px;
+
+    border: 4px solid black;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.4);
+}
+
+.logo-nav {
+    height: 60px;
+    width: auto;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+
+    color: white;
+    font-family: "Pusab", sans-serif;
+    font-size: 24px;
+
+    text-shadow:
+        -2px -2px 0 black,
+         2px -2px 0 black,
+        -2px  2px 0 black,
+         2px  2px 0 black,
+         0px  4px 8px rgba(0,0,0,0.5);
+
+    transition: 0.2s ease;
+}
+
+nav a:hover {
+    transform: scale(1.1);
+    color: #ffd966;
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+}
+
+#credits p {
+    font-size: 20px;
+}
+
+#credits a {
+    text-decoration: none;
+    color: rgb(27, 198, 255);
+}
