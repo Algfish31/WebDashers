@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "Pusab";
+    src: url("/fonts/pusab.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Aller";
+    src: url("/fonts/aller.ttf") format("opentype");
+}
+
 html, body {
     height: 100%;
     margin: 0;
